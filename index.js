@@ -21,7 +21,19 @@ const topic = require('./models/topic');
 
 /*================================================*/
 
+/*================ EXTERNAL ROUTES ================*/
 
+//UNCOMMENT YOUR ROUTE TO USE IT AND DONT FORGET TO RETURN IN THE ROUTE FILE ELSE IT WILL THROW AN ERROR :)
+
+// const userRoutes = require('./routes/userRoutes');
+// const quesRoutes = require('./routes/quesRoutes');
+// const testRoutes = require('./routes/testRoutes');
+
+// app.use('/user',userRoutes);
+// app.use('/ques',quesRoutes);
+// app.use('/test',testRoutes);
+
+/*==================================================*/
 
 app.listen(3000,()=>{
   console.log("Server Started on 3000");
